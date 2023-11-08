@@ -1,8 +1,7 @@
-
 #!/usr/bin/python3
 
-def update_dictionary(my_dict, key, value):
 
-    my_dict[key] = value
-
-    return my_dict
+def update_dictionary(a_dictionary, key, value):
+    n_dic = {key: value}
+    a_dictionary.update(n_dic)
+    return a_dictionary
