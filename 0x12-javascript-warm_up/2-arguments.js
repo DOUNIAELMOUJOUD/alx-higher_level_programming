@@ -1,8 +1,20 @@
 #!/usr/bin/node
 
-if (process.argv.length === 2) {
+const argslength = process.argv.length;
+
+if (argslength === 2) {
 	  console.log('No argument');
-} else if (process.argv.length === 3) {
+} else if ( argslength === 3) {
+	  console.log('Argument found');
+} else {
+	  console.log('Arguments found');
+}#!/usr/bin/node
+
+const argslength = process.argv.length;
+
+if (argslength === 2) {
+	  console.log('No argument');
+} else if ( argslength === 3) {
 	  console.log('Argument found');
 } else {
 	  console.log('Arguments found');
